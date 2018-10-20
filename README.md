@@ -3,4 +3,10 @@ WireGuard kernel module &amp; userspace programs for DD-WRT armv7l (such as R625
 
 Build from the latest source for DD-WRT linux-4.4.
 
-[Build instructions.](https://github.com/Senorsen/ddwrt-armv7-iptables-tproxy)
+[Instructions & Prerequisites about jffs and entware.](https://github.com/Senorsen/ddwrt-armv7-iptables-tproxy)
+
+```
+# Prepare
+opkg update
+opkg install bash coreutils-readlink
+```
